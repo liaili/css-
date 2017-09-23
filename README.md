@@ -6,7 +6,7 @@
 *解决方案：我们可以通过background-clip属性来改变背景色的显示区域。这个属性的默认值是border-box，背景色会延伸到边框下面；把值设置为padding-box，
 背景色就只会延伸到内边距，不包含边框。以下是例子：   
 `
-border:10px solid rgba(255,255,255,0.5);
-background:white;
+border:10px solid rgba(255,255,255,0.5);    
+background:white;   
 background-clip: padding-box;
 `
